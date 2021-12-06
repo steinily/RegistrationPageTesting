@@ -1,0 +1,45 @@
+A regisztrációs ürlap specifikációi:
+
+Input mezők:
+
+	First Name:
+		Minimum 2 karakter hosszú maximum 20 karakter hosszú lehet.
+		A mező kitöltése kötelező
+
+	Last Name:
+		Minimum 2 karakter hosszú maximum 20 karakter hosszú lehet.
+		A mező kitöltése kötelező
+		
+	User Name:
+		Minimum 8 karakter hosszú maximum 15 karakter hosszú lehet.
+		A mező kitöltése kötelező
+
+	User Password:
+		Minimum 8 karakter hosszú maximum 15 karakter hosszú lehet.
+		A mező kitöltése kötelező 
+	Confirm User Password:
+		Minimum 8 karakter hosszú maximum 15 karakter hosszú lehet.
+		A mező kitöltése kötelező, A Confirm User Password mezőnek meg kell egyeznie az User Password mezpvel
+
+	Email:
+		Valid email address format.A valid email address consists of an email prefix and an email domain, both in acceptable formats.The prefix appears to the left of the @ symbol.The domain appears to the right of the @ symbol.For example, in the address example@mail.com, "example" is the email prefix, and "mail.com" is the email domain.
+
+	Contact Number:
+		A contact number 12 karakter hosszú szám.
+
+	Department / Office :
+		Szabadon választható mező.
+
+Hiba megjelenités:
+	Hibás adatkitöltésnél folyamatosan megjelenités Piros szöveggel , a mező allat.
+	illetve a mezők szélei és ikonja , pirosan jelenik meg. ( alap eset zőld) 
+	 -Please enter your First Name
+	 -Please enter your Last Name
+	 -Please enter your Username
+	 -Please enter your Password
+	 -Please confirm your Password
+	 -Please enter your Email Address
+	 -This value is not valid
+
+Sikeres kitöltés esetén:
+	A regisztrációs ürlap a Submit gomb felet Zöld mező jelenik meg 'Success :thumbsup Success' felirat jelenik meg.

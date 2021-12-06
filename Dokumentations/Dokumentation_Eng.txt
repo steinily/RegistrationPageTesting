@@ -1,0 +1,45 @@
+﻿Specifications of the registration form:
+
+Input fields:
+
+	First Name:
+		Minimum 2 characters long maximum 20 characters long.
+		Field is mandatory
+
+	Last Name:
+		Minimum 2 characters long maximum 20 characters long.
+		Field is mandatory
+		
+	User Name:
+		Minimum 8 characters long maximum 15 characters long.
+		Field is mandatory
+
+	User Password:
+		Minimum 8 characters long maximum 15 characters long.
+		Field is mandatory
+	Confirm User Password:
+		Minimum 8 characters long maximum 15 characters long.
+		Field required, Confirm User Password field must match the User Password field
+
+	Email:
+		Valid email address format.A valid email address consists of an email prefix and an email domain, both in acceptable formats.The prefix appears to the left of the @ symbol.The domain appears to the right of the @ symbol.For example, in the address example@mail.com, "example" is the email prefix, and "mail.com" is the email domain.
+
+	Contact Number:
+		A contact number is a 12 character long number.
+
+	Department / Office :
+		Optional field.
+
+Error display:
+	When an error occurs during data entry, the field is continuously displayed with red text.
+	or the edges of the fields and the field icon are displayed in red. (default case)  
+	 -Please enter your First Name
+	 -Please enter your Last Name
+	 -Please enter your Username
+	 -Please enter your Password
+	 -Please confirm your Password
+	 -Please enter your Email Address
+	 -This value is not valid
+
+On successful completion:
+	On the registration form the Submit button will half a green box will appear with 'Success :thumbsup Success' caption will appear.
