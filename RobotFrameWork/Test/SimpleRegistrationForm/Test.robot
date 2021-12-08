@@ -1,14 +1,14 @@
 *** Settings ***
 Library  SeleniumLibrary
+Resource    ../../ResourceFiles/Keywords/CommonFunction.robot
+
 *** Variables ***
-${url}=  ${EXECDIR}/RegistrationForm/index.html
+
 
 *** Test Case ***
-This is a sample test Case
-    [Documentation]  Index.html open test
-    [Tags]  test
-    
-    Open Browser  ${url}  chrome
+Opening the page whit the desired Browser
+    Open Page whit browser
+   
 
     
 
