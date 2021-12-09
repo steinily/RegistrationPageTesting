@@ -55,6 +55,7 @@ $(document).ready(function() {
                 validators: {
                      stringLength: {
                         min: 8,
+                        max: 15,
                     },
                     notEmpty: {
                         message: 'Please confirm your Password'
